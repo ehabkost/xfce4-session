@@ -102,7 +102,7 @@ run (const gchar *command)
   gboolean result;
   gchar **argv;
   gchar **envp;
-  GError *err;
+  GError *err = NULL;
   gint status;
   gint argc;
 
